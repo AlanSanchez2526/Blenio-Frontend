@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Alan Sánchez</title>
     <link rel="stylesheet" href="./css/estilo.css">
+    <script src="https://kit.fontawesome.com/0d04c5a105.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <section id="Inicio">
        <nav class="navegador">
-           <ul>
+           <ul class="lista">
                <li class="itemnav"><a href="#Sobre Mi">Sobre Mi</a></li>
                <li class="itemnav"><a href="#Proyectos">Proyectos</a></li>
                <li class="itemnav"><a href="#Contacto">Contacto</a></li>
@@ -19,6 +20,7 @@
            <img class="portadaImagen" src="./img/Avatar.webp" alt="Avatar">
            <h2>Alan Sánchez</h2>
            <h3>Frontend Developer</h3>
+           <a id="btnContacto" href="#Contacto">Contactame!</a>
        </div>
    </section>
    <section id="SobreMi">
@@ -33,10 +35,25 @@
            <h2>Proyectos</h2>
            <h3>Últimos Trabajos.</h3>
        </div>
-       <div>
-           <img src="./img/imagen 1.jpg" alt="Imagen 1">
-           <img src="./img/imagen 2.png" alt="Imagen 2">
-           <img src="./img/imagen 3.jpg" alt="Imagen 3">
+       <div class="proyectosImg">
+           <div class="caja">
+                <img src="./img/imagen 1.jpg" alt="Imagen 1">
+                <div class="capa">
+                    <h2>Proyecto X</h2>
+                </div>
+           </div>
+           <div class="caja">
+                <img src="./img/imagen 2.png" alt="Imagen 2">
+                <div class="capa">
+                    <h2>Proyecto Y</h2>
+                </div>
+           </div>
+           <div class="caja">
+                <img src="./img/imagen 3.jpg" alt="Imagen 3">
+                <div class="capa">
+                    <h2>Proyecto Z</h2>
+                </div>
+           </div>
        </div>
    </section>
    <section id="Contacto">
@@ -52,12 +69,19 @@
             </div>
             <div class="FilaInferior">    
                 <textarea name="mensaje" id="mensaje" cols="30" rows="1" placeholder="Mensaje"></textarea>
-                <input id="btnEnviar" type="submit">
             </div>
+            <input id="btnEnviar" type="submit">
        </form>
    </section>
    <footer>
-       <p>©️Copyright 2020 Alan Sánchez. Todos los derechos reservados.</p>
+       <div class="titulosFooter">
+           <h2>Alan Sánchez</h2>
+           <h3>Frontend Developer</h3>
+       </div>
+       <div class="iconosFooter">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+       </div>
    </footer> 
 </body>
 </html>
