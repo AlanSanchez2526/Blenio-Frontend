@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+*{
+    margin: 0;
+    font-family: "Montserrat","Sanserif";
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-family: 18px;
+    font-weight: 400;
+}
+#Inicio{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+}
+.navegador{
+    height: 10vh;
+}
+.itemnav{
+    list-style: none;
+    font-weight: 600;
+}
+.itemnav a{
+    color: white;
+}
+.itemnav:hover a{
+    color: #ff0000;
+}
+#Portada{
+    height: 60vh;
+    color: white;
+}
+.portadaImagen{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+#SobreMi{
+    height: 30vh;
+    background-color: #EC7063;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+}
+#SobreMi h2{
+    margin-bottom: 10px;
+}
+#Proyectos{
+    padding-top: 8%;
+    text-align: center;
+}
+.ProyectoTitulo{
+    color: #EC7063;
+}
+#Proyectos h2{
+    color: #EC7063;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#Contacto{
+    margin-top: 8%;
+    background-color: #455a64;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.ContactoSubtitulo{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.FilaSuperior{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.FilaSuperior input, textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px #37474f;
+}
+input, textarea{
+    color: white;
+    font-size: 18px;
+    padding: 2px 4px 2px 6px;
+}
+#btnEnviar{
+    border: 0;
+    margin-top: 3%;
+    height: 50px;
+    width: 215px;
+    background-color: #EC7063;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10%;
+    cursor: pointer;
+}
+footer{
+    background-color: #37474f;
+    color: white;
+    text-align: center;
+    padding: 5% 10%;
+}
