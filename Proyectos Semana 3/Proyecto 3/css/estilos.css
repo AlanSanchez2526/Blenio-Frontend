@@ -1,0 +1,32 @@
+#contenedor {
+  display: flex;
+}
+#menu {
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+#menu > button {
+  padding: 16px 22px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+#menu > button:hover {
+  background-color: #ddd;
+}
+.activo {
+  background-color: #ccc;
+}
+.panel {
+  padding: 0 12px;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  display: none;
+  align-content: center;
+}
+.activa {
+  display: block;
+}
