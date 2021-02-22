@@ -19,6 +19,9 @@
 .activo {
   background-color: #ccc;
 }
+.centrarTabla {
+  margin: 0 auto;
+}
 .panel {
   padding: 0 12px;
   width: 70%;
