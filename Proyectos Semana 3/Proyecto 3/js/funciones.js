@@ -20,20 +20,20 @@ fetch('../data/bd.json')
     const proyectos = datos
     const tabla = document.querySelector("#listarProyectos")
 
-    proyectos.forEach(proyecto => {tabla.innerHTML + = "
+    proyectos.forEach(proyecto => {tabla.innerHTML +=`
       $ {proyecto.nombre}
       $ {proyecto.lenguaje}
       $ {proyecto.monto}
-      "
+      `
     })
   }
 
   function insertar (evt){
     evt.preventDefault()
     const valores = [{
-      nombre:document.getElementById("nombre").value,
-      lenguaje:document.getElementById("lenguaje").value,
-      monto:document.getElementById("monto").value,
+      nombre:document.getElementById('nombre').value,
+      lenguaje:document.getElementById('lenguaje').value,
+      monto:document.getElementById('monto').value,
     }]
     agregarProyectos(valores)
     limpiarFormulario()
